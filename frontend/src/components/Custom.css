@@ -1,0 +1,95 @@
+/* Login.css */
+
+.login-bg {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #f3f7fd 0%, #eaf1fc 100%);
+}
+
+.login-logo {
+    width: 48px;
+    height: 48px;
+    border-radius: 16px;
+    background: #e6efff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0.5rem auto;
+}
+
+.login-title {
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.25rem;
+}
+
+.login-subtitle {
+    color: #6c757d;
+    font-size: 17px;
+    margin-bottom: 1rem;
+}
+
+.login-card {
+    max-width: 400px;
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(16, 24, 40, 0.05);
+}
+
+.login-card-title {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.login-card-desc {
+    color: #6c757d;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+
+.login-tabs {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.login-tab {
+    flex: 1;
+    background: #f6f8fa;
+    color: #222;
+    font-weight: 600;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    box-shadow: none;
+    cursor: default;
+    padding: 0.5rem 0;
+}
+
+.login-tab.inactive {
+    color: #b2b6be;
+    border-radius: 0 6px 6px 0;
+    cursor: not-allowed;
+}
+
+.login-btn {
+    background: #101828;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 40px;
+    font-weight: 600;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.login-footer {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+    color: #6c757d;
+    font-size: 15px;
+}
